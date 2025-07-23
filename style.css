@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    box-shadow: 0px 3px 10px #f5f1f1;
+}
+
+header {
+    background-color: #172638;
+    padding: 20px 0px;
+}
+
+.cabecalho {
+    max-width: 1280px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+   
+}
+
+.flex {
+    display: flex;
+
+}
+
+/*Estilo Do Cabeçalho*/
+header {
+    padding: 40px 4%;
+    
+   
+}
+
+header > .cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+   
+
+}
+
+header a {
+    color: #f8f0f0;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    
+}
+
+header a:hover {
+    color: white;
+    transform: scale(1.10);
+
+}
+
+header nav ul {
+    list-style-type: none;
+   
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+
+}
+
+header .btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 480px) {
+   
+
+}
+
+
+ 

@@ -7,7 +7,7 @@
 
     body {
       box-sizing: border-box;
-      font-family: arial, sans-serif;
+      font-family: "poppins", sans-serif;
       margin: 0;
       padding: 0;
       
@@ -16,7 +16,7 @@
 
 
      .background {
-     min-height: 90vh;
+     min-height: 84vh;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -92,6 +92,17 @@
       display: block;
       border-radius: 2px;
     }
+   
+    /*Rodapé*/
+    footer {
+    background-color: #191970;
+    color: white;
+    text-align: center;
+    padding: 13px;
+    margin-top: 1px;
+    font-size: 16px;
+}
+
 
     /* Estilo para dispositivos móveis */
     @media (max-width: 768px) {
@@ -118,6 +129,11 @@
         display: flex;
        
       }
+
+       p {
+        font-size: 14px;
+
+    }
 
      
     }

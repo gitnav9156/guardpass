@@ -14,7 +14,7 @@
     }
 
      .background {
-     min-height: 90vh;
+     min-height: 84vh;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -38,7 +38,7 @@
     }
 
     header {
-      background-color: #00008B;
+      background-color: #191970;
       color: white;
       padding: 1rem;
     }
@@ -93,18 +93,32 @@
       border-radius: 2px;
     }
 
+    footer {
+    background-color: #191970;
+    color:white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 1px;
+    font-size: 16px;
+}
+
+#pe {
+  padding-top: 19px;
+}
+
+
     /* Estilo para dispositivos móveis */
     @media (max-width: 768px) {
       .menu {
         display: none;
         flex-direction: column;
-       /* background-color: rgb(146, 115, 77);*/
         position: absolute;
         top: 60px;
         left: 0;
         width: 100%;
         padding: 1rem 0;
         text-align: center;
+        z-index: 1;
       }
 
       .menu-toggle:checked + .hamburger + .menu {
@@ -116,8 +130,9 @@
       .hamburger {
         display: flex;
       }
+
       
-      
+    
 
     }
 

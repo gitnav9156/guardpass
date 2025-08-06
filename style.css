@@ -1,46 +1,25 @@
-/* Reset básico */
-    * {
+* {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
 
     body {
-      box-sizing: border-box;
-      font-family: arial, sans-serif;
-      margin: 0;
-      padding: 0;
+      font-family: 'poppins', sans-serif;
+      background-color: rgb(252, 250, 247);
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      display: flexbox;
       
-    }
-
-     .background {
-     min-height: 84vh;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     position: relative;
 
     }
-
-    .background::before {
-      content:'';
-      background-image: url(img/img3.png);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      opacity: 0.2;
-
-    }
-
+    
     header {
       background-color: #191970;
       color: white;
       padding: 1rem;
+      text-align: justify;
     }
 
     nav {
@@ -53,11 +32,7 @@
     
     }
 
-    /*.logo {
-      font-size: 1.5rem;
-      font-weight: bold;
-    }*/
-
+   
     /* Menu padrão (desktop) */
     .menu {
       display: flex;
@@ -93,23 +68,56 @@
       border-radius: 2px;
     }
 
-    footer {
+    
+    .warapper {
+        margin: 150px auto;
+        width: 70%;
+        
+    }
+
+    .warapper img {
+        max-width: 350px;
+        float: left;
+        opacity: 0.6;
+        border: 5px solid ;
+        border-radius: 20px;
+        margin-right:55px;
+        
+    }
+
+    .text-box h2 {
+        font-size: 42px;
+        
+    }
+
+    .text-box p {
+        font-size: 16px;
+        
+    }
+
+    .pe footer {
     background-color: #191970;
     color:white;
     text-align: center;
     padding: 5px;
     margin-top: 1px;
     font-size: 16px;
-}
+   }
 
-#pe {
-  padding-top: 19px;
-}
+    .pe footer {
+    padding-top: 20px;
+    margin-top: 490px;
+   }   
 
+/* Estilo para dispositivos móveis */
+    @media (max-width: 480px) {
+     
+        body {
+        background-color: rgb(252, 250, 247);
 
-    /* Estilo para dispositivos móveis */
-    @media (max-width: 768px) {
-      .menu {
+    }
+   
+       .menu {
         display: none;
         flex-direction: column;
         position: absolute;
@@ -131,10 +139,45 @@
         display: flex;
       }
 
-      
-    
+     
+     .warapper {
+        margin: 25px ;
+        width: 70%;
+     }
+     
+      .warapper img {
+        max-width: 350px;
+        float: left;
+        opacity: 0.6;
+        border: 3px solid ;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        margin-right: 40px;
+        margin-top: 25px;
+        margin-right: 20px;
 
     }
+
+     .text-box h2 {
+        font-size: 16px;
+        margin-left: 60px;
+        text-align: justify;
+        
+        
+        
+     }
+
+    .text-box p {
+        font-size: 13px;
+        margin-top: 10px;
+        text-align: justify;
+        margin-left: 60px;
+        
+    }
+     
+     
+
+}
 
 
  

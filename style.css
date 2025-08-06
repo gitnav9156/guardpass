@@ -1,83 +1,4 @@
 * {
-<<<<<<< HEAD
-    padding: 0;
-    margin: 0;
-}
-
-header {
-    background-color: white;
-    box-shadow: 0px 3px 10px #f5f1f1;
-}
-
-header {
-    background-color: #172638;
-    padding: 20px 0px;
-}
-
-.cabecalho {
-    max-width: 1280px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-   
-}
-
-.flex {
-    display: flex;
-
-}
-
-/*Estilo Do Cabeçalho*/
-header {
-    padding: 40px 4%;
-    
-   
-}
-
-header > .cabecalho {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-    
-   
-
-}
-
-header a {
-    color: #f8f0f0;
-    text-decoration: none;
-    display: inline-block;
-    transition: .2s;
-    
-}
-
-header a:hover {
-    color: white;
-    transform: scale(1.10);
-
-}
-
-header nav ul {
-    list-style-type: none;
-   
-}
-
-header nav ul li {
-    display: inline-block;
-    padding: 0 40px;
-
-}
-
-header .btn-contato button {
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: bold;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-
-}
-=======
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -85,7 +6,7 @@ header .btn-contato button {
 
     body {
       font-family: 'poppins', sans-serif;
-      background-color: white;
+      background-color: rgb(252, 250, 247);
       justify-content: center;
       align-items: center;
       min-height: 100vh;
@@ -185,22 +106,16 @@ header .btn-contato button {
 
     .pe footer {
     padding-top: 20px;
-    margin-top: 490px;
+    margin-top: 531px;
+    
    }   
->>>>>>> marcio
 
 /* Estilo para dispositivos móveis */
     @media (max-width: 480px) {
      
         body {
-        background-color: white;
+        background-color: rgb(252, 250, 247);
 
-<<<<<<< HEAD
-@media screen and (max-width: 480px) {
-   
-
-}
-=======
     }
    
        .menu {
@@ -243,10 +158,9 @@ header .btn-contato button {
         margin-right: 20px;
 
     }
->>>>>>> marcio
 
      .text-box h2 {
-        font-size: 20px;
+        font-size: 16px;
         margin-left: 60px;
         text-align: justify;
         
@@ -255,7 +169,7 @@ header .btn-contato button {
      }
 
     .text-box p {
-        font-size: 15px;
+        font-size: 13px;
         margin-top: 10px;
         text-align: justify;
         margin-left: 60px;

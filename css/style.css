@@ -18,6 +18,15 @@
     .pagina2 {
       background-color: rgba(176, 243, 237, 0.4);
     }
+
+    
+    .pagina3 {
+       background-color: rgba(176, 243, 237, 0.4);
+    }
+
+    .pagina4 {
+       background-color: rgba(176, 243, 237, 0.4);
+    }
     
     header {
       background-color: #191970;
@@ -123,8 +132,6 @@
 }
 
 
-
-
 .formulario {
     width: 400px;
     border: 1px solid rgba(225,225,225 0.2);
@@ -137,7 +144,6 @@
 }
     
     
-
 .formulario h1 {
     font-size: 28px;
     text-align: center;
@@ -160,6 +166,11 @@
     background-color: rgba(255,255,255, 0.7);
     font-size: 16px;
     padding: 0 20px;
+}
+
+.caixa-form label {
+    margin-bottom: 8px;
+    margin-left: 5px;
 }
 
 .caixa-form i {
@@ -229,8 +240,38 @@ button:hover {
     color: rgb(68, 68, 68);
 }
 
-   
-   
+.voltar {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+}   
+
+.voltar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+}
+
+/*Estilo dos cards*/
+.container-list {
+  width: 390px; /* Largura do container */
+  height: 400px; /* Altura do container */
+  border: 1px solid #ccc; /* Borda do container */
+  padding: 10px; /* Espaçamento interno do container */
+  
+}
+
+.card {
+  width: 100%; /* Largura do card igual à do container */
+  height: 100%; /* Altura do card igual à do container */
+  border: 2px solid black; /* Borda do card */
+  padding: 15px; /* Espaçamento interno do card */
+  box-sizing: border-box; /* Inclui a borda e o padding na largura e altura */
+  border-radius: 2%;
+  
+}
+
+
 
 /* Estilo para dispositivos móveis */
     @media (max-width: 480px) {

@@ -1,351 +1,372 @@
 * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    body {
-      font-family: 'poppins', sans-serif;
-      background-color: rgb(255, 255, 255);
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      display: flexbox;
-      
+body {
+  font-family: 'poppins', sans-serif;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  display: block;
 
-    }
 
-    .pagina2 {
-      background-color: rgba(176, 243, 237, 0.4);
-    }
+}
 
-    
-    .pagina3 {
-       background-color: rgba(176, 243, 237, 0.4);
-    }
+.pagina2 {
+  background-color: rgba(176, 243, 237, 0.4);
+}
 
-    .pagina4 {
-       background-color: rgba(176, 243, 237, 0.4);
-    }
-    
-    header {
-      background-color: #191970;
-      color: white;
-      padding: 1rem;
-      text-align: justify;
-    }
 
-    nav {
-      max-width: 1700px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 5px;
-    
-    }
+.pagina3 {
+  background-color: rgba(176, 243, 237, 0.4);
+}
 
-   
-    /* Menu padrão (desktop) */
-    .menu {
-      display: flex;
-      gap: 1.5rem;
-    }
+.pagina4 {
+  background-color: rgba(176, 243, 237, 0.4);
+}
 
-    .menu a {
-      color: white;
-      text-decoration: none;
-      font-weight: 500;
-      font-size: 17px;
-      color: white;
-      
-    }
+header {
+  background-color: #191970;
+  color: white;
+  padding: 1rem;
+  text-align: justify;
+}
 
-    /* Botão hambúrguer oculto no desktop */
-    .menu-toggle {
-      display: none;
-    }
+nav {
+  max-width: 1700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
 
-    .hamburger {
-      display: none;
-      cursor: pointer;
-      flex-direction: column;
-      gap: 5px;
-    }
+}
 
-    .hamburger span {
-      width: 25px;
-      height: 3px;
-      background: white;
-      display: block;
-      border-radius: 2px;
-    }
 
-    
-    .warapper {
-        margin: 150px auto;
-        width: 70%;
-        
-    }
+/* Menu padrão (desktop) */
+.menu {
+  display: flex;
+  gap: 1.5rem;
+}
 
-    .warapper img {
-        max-width: 350px;
-        float: left;
-        opacity: 0.6;
-        border: 5px solid ;
-        border-radius: 20px;
-        margin-right:55px;
-        
-    }
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  color: white;
 
-    .text-box h2 {
-        font-size: 42px;
-        
-    }
+}
 
-    .text-box p {
-        font-size: 16px;
-        
-    }
+/* Botão hambúrguer oculto no desktop */
+.menu-toggle {
+  display: none;
+}
 
-    .pe footer {
-    background-color: #191970;
-    color:white;
-    text-align: center;
-    padding: 5px;
-    margin-top: 1px;
-    font-size: 16px;
-   }
+.hamburger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
 
-    .pe footer {
-    padding-top: 20px;
-    margin-top: 531px;
-   } 
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  display: block;
+  border-radius: 2px;
+}
 
-   /*Estilo do Tela do Login*/
+
+.warapper {
+  margin: 150px auto;
+  width: 70%;
+
+}
+
+.warapper img {
+  max-width: 350px;
+  float: left;
+  opacity: 0.6;
+  border: 5px solid;
+  border-radius: 20px;
+  margin-right: 55px;
+
+}
+
+.text-box h2 {
+  font-size: 42px;
+
+}
+
+.text-box p {
+  font-size: 16px;
+
+}
+
+.pe footer {
+  background-color: #191970;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top: 1px;
+  font-size: 16px;
+}
+
+.pe footer {
+  padding-top: 20px;
+  margin-top: 531px;
+}
+
+/*Estilo do Tela do Login*/
 .container-login {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh; /* Altura da viewport */
+  height: 100vh;
+  /* Altura da viewport */
 }
 
 
 .formulario {
-    width: 400px;
-    border: 1px solid rgba(225,225,225 0.2);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-    border-radius: 16px;
-    padding: 35px;
-    background-color:rgb(217, 245, 235);
-   
+  width: 400px;
+  border: 1px solid rgba(225, 225, 225 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  padding: 35px;
+  background-color: rgb(217, 245, 235);
+
 }
-    
-    
+
+
 .formulario h1 {
-    font-size: 28px;
-    text-align: center;
-    margin-bottom: 30px;
-    font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
 }
 
 .caixa-form {
-    position: relative;
-    margin-bottom: 30px;
-    
+  position: relative;
+  margin-bottom: 30px;
+
 }
 
 .caixa-form input {
-    width: 100%;
-    height: 50px;
-    border: none;
-    border-radius: 10px;
-    outline: none;
-    background-color: rgba(255,255,255, 0.7);
-    font-size: 16px;
-    padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  padding: 0 20px;
 }
 
 .caixa-form label {
-    margin-bottom: 8px;
-    margin-left: 5px;
+  margin-bottom: 8px;
+  margin-left: 5px;
 }
 
 .caixa-form i {
-   position: absolute;
-   right: 20px; 
-   font-size: 20px;
-   top: 19px;
+  position: absolute;
+  right: 20px;
+  font-size: 20px;
+  top: 19px;
 }
 
 .caixa-lembrar-esqueci {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   margin-bottom: 25px;
-   font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  font-size: 16px;
 
 }
 
-.caixa-lembrar-esqueci label{
-    display: flex;
-    align-items: center;
-    gap: 5px;
+.caixa-lembrar-esqueci label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .caixa-lembrar-esqueci label input {
-    accent-color: rgb(176, 243, 237)
-    ;
+  accent-color: rgb(176, 243, 237);
 }
 
-.caixa-lembrar-esqueci a{
-    text-decoration: none;
-    color: rgb(34, 30, 30);
+.caixa-lembrar-esqueci a {
+  text-decoration: none;
+  color: rgb(34, 30, 30);
 }
 
 .caixa-lembrar-esqueci a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 button {
-    width: 100%;
-    height: 45px;
-    background-color: rgb(255, 254, 254);
-    border: none;
-    border-radius: 10px;
-    outline: none;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    transition: all 0.3s;
-    color: rgb(77, 76, 76);
+  width: 100%;
+  height: 45px;
+  background-color: rgb(255, 254, 254);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s;
+  color: rgb(77, 76, 76);
 }
 
 button:hover {
-    background-color: #fff;
-    transform: translateY(-5px);
+  background-color: #fff;
+  transform: translateY(-5px);
 }
 
 .registrar {
-    text-align: center;
-    margin-top: 25px;
-    font-size: 14px;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 14px;
 }
 
 .registrar a {
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(68, 68, 68);
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(68, 68, 68);
 }
 
 .voltar {
-    text-align: center;
-    margin-top: 25px;
-    font-size: 14px;
-}   
+  text-align: center;
+  margin-top: 25px;
+  font-size: 14px;
+}
 
 .voltar a {
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(68, 68, 68);
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(68, 68, 68);
 }
 
 /*Estilo dos cards*/
 .container-list {
-  width: 390px; /* Largura do container */
-  height: 400px; /* Altura do container */
-  border: 1px solid #ccc; /* Borda do container */
-  padding: 10px; /* Espaçamento interno do container */
+  width: 490px;
+  height: 500px;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
   
+  
+  
+ 
+}
+
+.container-list img {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
 }
 
 .card {
-  width: 100%; /* Largura do card igual à do container */
-  height: 100%; /* Altura do card igual à do container */
-  border: 2px solid black; /* Borda do card */
-  padding: 15px; /* Espaçamento interno do card */
-  box-sizing: border-box; /* Inclui a borda e o padding na largura e altura */
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  padding: 15px;
+  box-sizing: border-box;
   border-radius: 2%;
-  
+
 }
-
-
 
 /* Estilo para dispositivos móveis */
-    @media (max-width: 480px) {
-     
-        body {
-        background-color: rgb(252, 250, 247);
+@media (max-width: 480px) {
 
-    }
-   
-       .menu {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        padding: 1rem 0;
-        text-align: center;
-        z-index: 1;
-      }
+  body {
+    background-color: rgb(252, 250, 247);
 
-      .menu-toggle:checked + .hamburger + .menu {
-        display: flex;
-        background-color:#00008B;
-        
-      }
+  }
 
-      .hamburger {
-        display: flex;
-      }
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    z-index: 1;
+  }
 
-     
-     .warapper {
-        margin: 25px ;
-        width: 70%;
-     }
-     
-      .warapper img {
-        max-width: 350px;
-        float: left;
-        opacity: 0.6;
-        border: 3px solid ;
-        border-radius: 20px;
-        margin-bottom: 30px;
-        margin-right: 40px;
-        margin-top: 25px;
-        margin-right: 20px;
+  .menu-toggle:checked+.hamburger+.menu {
+    display: flex;
+    background-color: #00008B;
 
-    }
+  }
 
-     .text-box h2 {
-        font-size: 20px;
-        margin-left: 60px;
-        text-align: justify;
-        
-        
-        
-     }
+  .hamburger {
+    display: flex;
+  }
 
-    .text-box p {
-        font-size: 15px;
-        margin-top: 10px;
-        text-align: justify;
-        margin-left: 60px;
-        
-    }
-     
-     /*Login*/
-     
-    .formulario {
-      width: 350px;
-    }
 
+  .warapper {
+    margin: 25px;
+    width: 70%;
+  }
+
+  .warapper img {
+    max-width: 350px;
+    float: left;
+    opacity: 0.6;
+    border: 3px solid;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    margin-top: 25px;
+    margin-right: 20px;
+
+  }
+
+  .text-box h2 {
+    font-size: 20px;
+    margin-left: 60px;
+    text-align: justify;
+
+
+
+  }
+
+  .text-box p {
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: justify;
+    margin-left: 60px;
+
+  }
+
+  /*Login*/
+  .formulario {
+    width: 350px;
+  }
+
+
+  /*Tela listagem*/
+ .container-list {
+  width: 400px;
+  height: 500px;
+  padding: 10px;
+  margin-left: 5px;
+  margin-top: 10px;
 
 }
+ }
+
+
 
  

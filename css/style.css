@@ -376,14 +376,15 @@ button:hover {
   width: 358px;
   height: 450px;
   padding: 10px;
-  margin-left: 55px;
-  margin-bottom: 5px;
+  margin-left: 25px;
+  
 
 }
 
 .container-lista {
   width: 21rem;
-  margin-left: 65px;
+  margin-left: 35px;
+  margin-bottom: 50px;
   
 
 }
